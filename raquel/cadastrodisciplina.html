@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="cadastrodisciplina.css">
+    <script src="cadastrodisciplina.js"></script>
+</head>
+
+<body>
+ <h3>CADASTRO DE DISCIPLINAS</h3>   
+ <div class="card">
+ <form name="Cadprof" action="" onsubmit="return CriticaCampos()">
+    <div class="dados">
+    <label for="mataprof"> <b> Codigo da Displina</b></label><br>
+    <input type="text"name="mataprof"placeholder="Digite o codigo"maxlenght="5"><br><br>
+    <label for="nomeprof"><b>Descrição da Disciplina</b> </label><br>
+    <input type="text"name="nomeprof"placeholder="Digite a descrição"maxlenght="20"><br><br>
+    
+    </div>
+
+    <div class="curso">
+        <label for="curprof"> <b>Curso da Disciplina </b></label><br>
+        <select name="curprof">
+            <option value="TEN"> Efermagem</option> 
+            <option value="TEN"> Adiministração</option>
+            <option value="TEN"> Contabilidade </option>
+         </select><br><br>
+    </div>
+ 
+
+
+    <div class="sexo">
+     <h4>GRUPO:</h4>
+     <label class="conteiner-radio">Técnica</label>
+        <input type="radio" name="radio">
+     <label class="conteiner-radio">Básica</label>
+        <input type="radio" name="radio">
+     <label class="conteiner-radio">Comportamental</label>
+        <input type="radio" name="radio"><br>
+    </div>
+
+ 
+   <div class="conteiner">
+        
+        <input type="submit" value="ENVIAR">      
+   </div>
+
+ <h3>ATENÇÃO</h3>
+ <p> <b>Quando clicado o Botão ENVIAR, um critica de todos os campos deve acontecer.<br>
+     Mostrar uma mensagem caso haja alguem erro OU mostrar uma mensagem de que o cadastro sera enviado para o Servidor de BD</b></p></form>
+</div>
+ </form>
+</body>
+</html>

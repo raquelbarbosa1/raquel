@@ -1,0 +1,59 @@
+
+input[type=text],  input[type=email] {
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border-color:rgb(0, 0, 248) ;
+    border-radius: 20px;
+}
+ 
+  input[type=date] {
+    width: 30%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border-color:rgb(0, 0, 255) ;
+    border-radius: 20px;
+}
+
+ select{
+    text-align: center;
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border-color: rgb(3, 3, 255);
+    border-radius: 20px;
+
+}
+
+ h3{
+    text-align: center;
+}
+
+ .conteiner{
+    align-tracks: center;
+    color: rgb(70, 9, 9);
+    border-radius: 9px;
+ }
+
+.conteiner{text-align: center;}
+.dados{text-align: center;}
+.docs{text-align: center;}
+.sexo{text-align: center;}
+.curso{text-align: center;}
+
+input[type=submit], button{
+  background-color: rgb(98, 129, 231);
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  color: rgb(0, 0, 0);
+  width: 300px;
+  border-radius: 20px; 
+}
+
+
+
